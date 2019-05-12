@@ -1,0 +1,11 @@
+Origin: NathanW's Repo
+Label: NathanW's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Free tweaks made by Nathan Whitaker
+
+SHA256:
+ 6b05d21db62219329eeedf5f1dd52a258fb5e19b686ef605054513b58dd7972d 759 Packages.bz2
