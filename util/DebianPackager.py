@@ -59,6 +59,7 @@ class DebianPackager(object):
         control_file += "ModernDepiction: https://" + repo_settings['cname'] + subfolder + "/depiction/native/" \
                         + tweak_data['bundle_id'] + ".json\n"
         control_file += "Icon: https://" + repo_settings['cname'] + subfolder + "/assets/" + tweak_data['bundle_id'] + "/icon.png\n"
+        print(control_file)
         try:
             if repo_settings['maintainer']['email']:
                 control_file += "Maintainer: " + repo_settings['maintainer']['name'] + " <" \
