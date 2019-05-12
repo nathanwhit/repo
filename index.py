@@ -67,13 +67,13 @@ def main():
             shutil.copy(root + "Packages/" + package_name + "/silica_data/icon.png",
                         root + "docs/assets/" + package_bundle_id + "/icon.png")
         except Exception:
+            print('EXCEPT ' + package_name)
             category = PackageLister.ResolveCategory(tweak_release, package_bundle_id)
             category = re.sub(r'\([^)]*\)', '', category).strip()
             try:
                 shutil.copy(root + "Styles/Generic/Icon/" + category + ".png",
                             root + "docs/assets/" + package_bundle_id + "/icon.png")
             except Exception:
-                print('EXCEPT')
                 shutil.copy(root + "Styles/Generic/Icon/Generic.png",
                             root + "docs/assets/" + package_bundle_id + "/icon.png")
 
