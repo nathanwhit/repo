@@ -12,11 +12,11 @@ uninstall/reinstall Springfinity. Otherwise, Springfinity functions identically 
 For a short time (a couple seconds) after dropping icons, they're temporarily able to visually pass over the dock. This is due to how Apple has implemented drag-and-drop behavior, and while I'm looking into it I'm not sure it's practical to fix.
 
 ##Support
-Twitter : @NathanWDev
+Twitter : [@NathanWDev](https://twitter.com/NathanWDev)
 
 Email : nathan.whitaker01@gmail.com
 
-Reddit : u/ibeforeyou
+Reddit : [u/ibeforeyou](https://reddit.com/u/ibeforeyou)
 
 Contributions are welcomed, and can go to
 [my PayPal account](https://paypal.me/NathanWDev)
