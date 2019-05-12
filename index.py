@@ -73,6 +73,7 @@ def main():
                 shutil.copy(root + "Styles/Generic/Icon/" + category + ".png",
                             root + "docs/assets/" + package_bundle_id + "/icon.png")
             except Exception:
+                print('EXCEPT')
                 shutil.copy(root + "Styles/Generic/Icon/Generic.png",
                             root + "docs/assets/" + package_bundle_id + "/icon.png")
 
