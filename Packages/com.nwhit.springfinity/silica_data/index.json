@@ -1,7 +1,7 @@
 {
     "bundle_id": "com.nwhit.springfinity",
     "name": "Springfinity",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "tagline": "Infinie scrolling on your homescreen. A remake of Infiniboard for iOS 11-12",
     "homepage": "https:nathanwhit.github.io/repo",
     "developer": {
@@ -20,6 +20,8 @@
     "source": "https://github.com/nathanwhit/Springfinity",
     "changelog": [
         {
+            "version": "1.1.6",
+            "changes": "Make it so there is no half-row of icons at the bottom of the screen when using the option Hide Behind Dock + Page Control",
             "version": "1.1.5",
             "changes": "Fix compatibility issues with Cylinder (fully fixed) and ClassicFolders2 (functionality fixed, but visual bugs remain), improve how autorotation and dock hiding is handled",
             "version": "1.1",
