@@ -1,7 +1,7 @@
 {
     "bundle_id": "com.nwhit.springfinity",
     "name": "Springfinity",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "tagline": "Infinite scrolling on your homescreen. A remake of Infiniboard for iOS 11-12",
     "homepage": "https:nathanwhit.github.io/repo",
     "developer": {
@@ -20,6 +20,8 @@
     "source": "https://github.com/nathanwhit/Springfinity",
     "changelog": [
         {
+            "version": "1.1.9",
+            "changes": "Fix icons being cutoff after rotating the homescreen",
             "version": "1.1.8",
             "changes": "Fix a bug that caused the bottom rows of the scrollview to be cutoff on some devices",
             "version": "1.1.7",
